@@ -70,6 +70,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
     height:80px;
+    list-style: none;
 `;
 
 export const NavLinks = styled(LinkS)`

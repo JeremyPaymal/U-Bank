@@ -2,9 +2,12 @@ import React from 'react'
 import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel, FormWrap, Icon, Text } from './SigninElements';
 import Footer from '../Footer';
 
+import Fade from 'react-reveal/Fade';
+
 const SignIn = () => {
   return (
     <>
+        <Fade top>
         <Container>
             <FormWrap>
                 <Icon to="/">U-Bank</Icon>
@@ -21,6 +24,7 @@ const SignIn = () => {
                 </FormContent>
             </FormWrap>
         </Container>
+        </Fade>
         <Footer />
     </>
   )
