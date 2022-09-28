@@ -1,5 +1,5 @@
 # U-Bank
-## Video Demo:  Coming soon 
+## Video Demo:  https://u-bank.netlify.app/
 
 ## Description:
 <hr>
